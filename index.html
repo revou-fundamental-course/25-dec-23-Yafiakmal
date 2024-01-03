@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Revou</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <Header>
+
+    </Header>
+
+    <main>
+        <div class="container">
+            <!-- judul -->
+            <div class="title">
+                <h1>Keliling Segitiga</h1>
+            </div>
+
+            <!-- gambar segitiga untuk membantu visualisasi rumus -->
+            <div class="triagle-image">
+                <img src="assets/triagle image.png" alt="ini gambar segitiga">
+            </div>
+            <!-- input sisi -->
+            <form action="" class="triangle-perimeter-input">
+                <input type="number" value="masukan panjang A"><br><br>
+                <input type="number" value="masukan panjang B"><br><br>
+                <input type="number" value="masukan panjang C"><br><br>
+            </form>
+            <!-- field hasil -->
+            <div class="triangle-perimeter-result">
+                <h2>Hasil</h2>
+                <p>Hasil dari perimeter keliling segitiga adalah <span id="result"></span></p>
+            </div>
+            <!-- tombol yang menjalankan fungsi reset dan hitung -->
+            <div class="hitung-reset-button">
+                <button id="hitung">Hitung</button>
+                <button id="reset">Reset</button>
+            </div>
+            <!-- tombol menuju fungsi menghitung keliling atau luas -->
+            <div class="to-keliling-luas-button">
+                <button id="to-keliling">Keliling</button>
+                <button id="to-luas">Luas</button>
+            </div>
+        </div>
+    </main>
+
+    <Footer>
+
+    </Footer>
+    <script src="js/script.js"></script>    
+</body>
+</html>
